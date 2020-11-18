@@ -1,0 +1,145 @@
+<!-- GOALS
+use the media query to make it responsive, use the special units instead of % or pixels -->
+<!-- USING IDs make sure the rows for mountains and flowers are scalable  -->
+<!-- fix background scrolling -->
+<!-- USE bootstrap scrollspy -->
+<!-- use bootstrap popover -->
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/> <!-- bootstrap just in case -->
+		
+	</head>
+
+	<body>
+		<div class="nav-bar"> 
+			<div class="nav-spacer"></div>
+			<button class="nav-btn">Home Page</button>
+			<button class="nav-btn">About Us</button>
+			<button class="nav-btn">Services</button>
+			<button class="nav-btn">External</button>
+			<button class="nav-btn">Contact Us</button>
+			<div class="nav-spacer"></div>
+		</div>
+		<div class="top-wrapper"></div>
+		<div class="parallax-wrapper-top"></div>
+		<div class="parallax rellax" data-rellax-speed="6"> <!-- https://alligator.io/css/pure-css-parallax/ -->
+			<h2 id="pic-caption-1">Travel With Us</h2>
+		</div>
+		<div class="parallax-wrapper-bottom"></div>
+		<div class="row" id="mtn-row"> 
+			<div class="row-box">				
+				<img class="row-pic" src="resources/beautiful-scenery-of-the-mountain-ingushetia-russia 2.jpg" alt="ingushetia mountains">				
+				<div class="row-title"><h3>Praesent ullamcorper eget</h3></div>
+				<div class="row-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper eget quam nec lobortis. Phasellus magna arcu, dignissim eu nibh convallis, maximus gravida lacus. Donec aliquam nibh vitae.</p></div>
+				<div class="btn-box"><button class="row-btn"><p class="row-btn-text">Click Here</p></button></div>
+			</div>
+			<div class="row-box">				
+				<img class="row-pic" src="resources/Scotland highlands.jpg" alt="Scotland highlands">
+				<div class="row-title"><h3>Molestie non vitae nisl</h3></div>
+				<div class="row-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper eget quam nec lobortis. Phasellus magna arcu, dignissim eu nibh convallis, maximus gravida lacus. Donec aliquam nibh vitae.</p></div>
+				<div class="btn-box"><button class="row-btn"><p class="row-btn-text">Click Here</p></button></div>
+			</div>
+			<div class="row-box">
+				<img class="row-pic" src="resources/catskill mountains.jpg" alt="catskill mountains">
+				<div class="row-title"><h3>Donec aliquam nibh</h3></div>
+				<div class="row-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper eget quam nec lobortis. Phasellus magna arcu, dignissim eu nibh convallis, maximus gravida lacus. Donec aliquam nibh. </p></div>
+				<div class="btn-box"><button class="row-btn"><p class="row-btn-text">Click Here</p></button></div>
+			</div>
+		</div>
+		<div class="small-wrapper"></div>
+
+		<div class="row" id="flr-row"> 
+			<div class="row-box" id="filler"></div>
+			<div class="row-box" id="flr-row-box">				
+				<img class="row-pic" src="resources/Lit flower garden.jpg" alt="flower garden">				
+				<div class="row-title"><h3>Praesent ullamcorper eget</h3></div>
+				<div class="row-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper eget quam nec lobortis. Phasellus magna arcu, dignissim eu nibh convallis, maximus gravida lacus. Donec aliquam nibh vitae. </p></div>
+				<div class="btn-box"><button class="row-btn"><p class="row-btn-text">Click Here</p></button></div>
+			</div>
+			<div class="row-box" id="flr-row-box">				
+				<img class="row-pic" src="resources/Flower garden.jpg" alt="Flower garden 2">
+				<div class="row-title"><h3>Molestie non vitae nisl</h3></div>
+				<div class="row-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper eget quam nec lobortis. Phasellus magna arcu, dignissim eu nibh convallis, maximus gravida lacus. Donec aliquam nibh. </p></div>
+				<div class="btn-box"><button class="row-btn"><p class="row-btn-text">Click Here</p></button></div>
+			</div>
+			<div class="row-box" id="filler"></div>
+		</div>
+
+		<div class="parallax-wrapper-top"></div>
+		<div class="parallax2 rellax" data-rellax-speed="6"> 
+			<h2 class="pic-caption-2">See For Yourself</h2>
+		</div>
+		<div class="parallax-wrapper-bottom"></div>
+		
+		
+		<!-- ********CURRENTLY WORKING ON********** -->
+		<div class="row" id="plains-row"> 
+			<div class="row-box plains-row-box" id="plains1">				
+				<img class="row-pic plains-pic" src="resources/beautiful_rainbow-wallpaper-1600x900.jpg" alt="raindbow">		
+				<div class="row-title"><h3>Praesent ullamcorper</h3></div>
+				<div class="row-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper eget quam nec lobortis. </p></div>
+				<div class="btn-box"><button class="row-btn"><p class="row-btn-text">Click Here</p></button></div>
+			</div>
+			
+			<div class="row-box plains-row-box" id="plains2">				
+				<img class="row-pic plains-pic" src="resources/6776635-beautiful-sunrise-wallpaper.jpg" alt="sunrise">
+				<div class="row-title"><h3>Phasellus magna arcu</h3></div>
+				<div class="row-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper eget quam nec lobortis. </p></div>
+				<div class="btn-box"><button class="row-btn"><p class="row-btn-text">Click Here</p></button></div>
+			</div>
+			
+			<div class="row-box plains-row-box" id="plains3">				
+				<img class="row-pic plains-pic" src="resources/green valley forest.jpg" alt="Flower garden 2">
+				<div class="row-title"><h3>Lorem ipsum dolor sit</h3></div>
+				<div class="row-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper eget quam nec lobortis. </p></div>
+				<div class="btn-box"><button class="row-btn"><p class="row-btn-text">Click Here</p></button></div>
+			</div>
+			<div class="row-box plains-row-box" id="plains4">				
+				<img class="row-pic plains-pic" src="resources/1600x900_beautiful_scenery field, flowrs, mountains.jpg" alt="Flower garden 2">
+				<div class="row-title"><h3>Gravida lacus. Donec</h3></div>
+				<div class="row-desc"s><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper eget quam nec lobortis.  </p></div>
+				<div class="btn-box"><button class="row-btn"><p class="row-btn-text">Click Here</p></button></div>	
+			</div>
+		</div>
+		<!-- ********CURRENTLY WORKING ON********** -->
+
+		<div class="small-wrapper"></div>
+		<div class="row" id="big-row"> 
+			<div class="row-box" id="big-row-box">				
+				<img class="row-pic" id="big-row-pic" src="resources/1600x900_beautiful_scenery field, flowrs, mountains.jpg" alt="field of flowers">	
+				<div class="row-title" id="big-row-title"><h3>Praesent ullamcorper eget</h3></div>
+				<div class="row-desc" id="big-row-desc"><p>Lorem ipsum dolor sit amet, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"consectetur adipiscing elit. Praesent ullamcorper eget quam nec lobortis. Phasellus magna arcu, dignissim eu nibh convallis, maximus gravida lacus. Donec aliquam nibh vitae.</p></div>
+				<div class="btn-box"><button class="row-btn" id="big-row-btn"><p class="row-btn-text">Click Here</p></button></div>
+				
+			</div>
+		</div>
+		<div id="blurred"></div>
+		<div class="contact"> 
+			<form>
+				<div id="inputs" class="form-group">
+					<h2 id="contact-title"> Contact Us </h2> 
+					<div id="contact-descr"><p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur</p></div>
+					<input id="name" type="text" placeholder="Name" class="form-control" aria-describeby="Name">
+					<input id="email" type="email" class="form-control" placeholder="Enter Email" aria-describeby="emailHelp">
+					<input id="subject" type="text" placeholder="Subject" class="form-control" aria-describeby="subject">
+					<input id="comment" type="text" placeholder="Enter Comments Here" class="form-control" aria-describeby="comments">
+					<button id="contact-btn" type="submit" class="btn btn-block ">Submit</button>
+				</div>
+			</form>
+		</div>
+
+
+
+	</body>
+	<script src="conquer.js"></script>
+	<script src="node_modules\rellax\rellax.min.js"></script>
+<script>
+  // Accepts any class name
+  var rellax = new Rellax('.rellax');
+</script>
+</html>
